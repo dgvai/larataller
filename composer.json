@@ -1,0 +1,26 @@
+{
+    "name": "dgvai/larataller",
+    "description": "A stand-alone laravel application installer package.",
+    "type": "composer-dependency",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jalal Uddin",
+            "email": "dgvai.hridoy@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "DGvai\\Larataller\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DGvai\\Larataller\\LaratallerServiceProvider"
+            ]
+        }
+    }
+}
