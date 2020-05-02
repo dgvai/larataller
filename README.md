@@ -44,6 +44,12 @@ Publish configuration file
     php artisan vendor:publish --tag=larataller
 ```
 
+**For users bellow laravel < 5.5**
+Add service provider to config/app.php
+```php
+    '"DGvai\Larataller\LaratallerServiceProvider"'
+```
+
 ### Setup and configure
 
 The installer configuration is the only major work for this package. So follow carefully this step.  
