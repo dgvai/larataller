@@ -47,7 +47,7 @@ Publish configuration file
 **For users bellow laravel < 5.5**
 Add service provider to config/app.php
 ```php
-    '"DGvai\Larataller\LaratallerServiceProvider"'
+    "DGvai\Larataller\LaratallerServiceProvider"
 ```
 
 ### Setup and configure
