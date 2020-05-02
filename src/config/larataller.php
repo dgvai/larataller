@@ -50,7 +50,14 @@
             ],
         ],
 
-
+        /**
+         * REQUIRED APACHE MODULES
+         * --------------------------------------
+         * Define here which modules are
+         * required for your application.
+         * 
+         */
+        
         'apache' => [
             'mods' => [
                 'mod_rewrite',
