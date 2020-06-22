@@ -75,7 +75,7 @@ class Requirements
 
         foreach($apacheMods as $mod)
         {
-            if(!$mod['enabled'])
+            if(isset($mod['enabled']) && !$mod['enabled'])
             {
                 return false;
             }
